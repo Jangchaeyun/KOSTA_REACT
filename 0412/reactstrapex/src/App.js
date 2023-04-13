@@ -12,6 +12,9 @@ import ReactStrapCarousel from "./ReactStrapCarousel";
 import ReactstrapCollapse from "./ReactstrapCollapse";
 import ReactstrapForm from "./ReactstrapForm";
 import ReactstrapForm2 from "./ReactstrapForm2";
+import SweetAlertConfirm from "./SweetAlertConfirm";
+import ReactStrapListGroup from "./ReactstrapListGroup";
+import ReactstrapPopover from "./ReactstrapPopover";
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
       {/* <ReactStrapCarousel /> */}
       {/* <ReactstrapCollapse /> */}
       {/* <ReactstrapForm /> */}
-      <ReactstrapForm2 />
+      {/* <ReactstrapForm2 /> */}
+      {/* <SweetAlertConfirm /> */}
+      {/* <ReactStrapListGroup /> */}
+      <ReactstrapPopover />
     </div>
   );
 }
